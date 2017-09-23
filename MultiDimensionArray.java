@@ -14,7 +14,7 @@ class MultiDimensionArray {
 		{
     		for (indices[n-1] = 0; indices[n-1] < lengthOfDimension[n-1]; indices[n-1]++)
     		{
-        		sum += getValue(tuple);
+        		sum += getValue(indices);
     		}
     		while (prev >= 0)
     		{
